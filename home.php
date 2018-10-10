@@ -19,7 +19,7 @@
     <div class="flex-container-background">
         <div class="flex-container">
             <div class="flex-item-0">
-                <h1 id="form_header">Your Bank at Your Fingertips.</h1>
+                <h1 id="form_header">Completely secure and trusted.</h1>
             </div>
         </div>
 
@@ -27,7 +27,7 @@
             <div class="flex-item-1">
                 <form action="customer_login_action.php" method="post">
                     <div class="flex-item-login">
-                        <h2>Welcome</h2>
+                        <h2>Welcome!</h2>
                     </div>
 
                     <div class="flex-item">

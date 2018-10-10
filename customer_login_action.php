@@ -18,10 +18,10 @@
         $_SESSION['loggedIn_cust_id'] = $row["cust_id"];
         $_SESSION['isCustValid'] = true;
         $_SESSION['LAST_ACTIVITY'] = time();
-        header("location:customer_home.php");
+        header("location:/BMS/customer_home.php");
     }
     else {
         session_destroy();
-        die(header("location:home.php?loginFailed=true"));
+        die(header("location:/BMS/home.php?loginFailed=true"));
     }
 ?>

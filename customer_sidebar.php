@@ -4,20 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="admin_sidebar_style.css">
 </head>
-
 <body>
     <div class="sidenav" id="theSideNav">
         <a href="javascript:void(0)" id="closebtn" style="padding: 10px 20px;"
                         onclick="closeNav()">&times;</a>
-        <a href="/customer_home.php">Home</a>
-        <a href="/customer_transactions.php">My Transactions</a>
+        <a href="/BMS/customer_home.php">Home</a>
+        <a href="/BMS/customer_transactions.php">My Transactions</a>
         <a id="label">Send/Recieve</a>
-        <a href="/beneficiary.php">Transfer Funds</a>
-        <a href="/atm_simulator.php">ATM Simulator</a>
+        <a href="/BMS/beneficiary.php">Transfer Funds</a>
+        <a href="/BMS/atm_simulator.php">ATM Simulator</a>
         <a id="label">Contact Us</a>
         <a href="#">Submit Griveance</a>
     </div>
-
 <script>
 // For-Loop below is used to create active links and accordingly color them.
 // Helps in recognizing which tab is selected.
@@ -32,7 +30,6 @@ for (var i = 0; i < document.links.length; i++) {
         document.links[i].className = 'active';
     }
 }
-
 function openNav() {
     document.getElementById("theSideNav").style.width = "256px";
     var x = document.getElementById("theSideNav");
@@ -40,14 +37,12 @@ function openNav() {
         x.className += " responsive";
     }
 }
-
 // Never use get window size of jquery, in javascript, they dont work !
 function closeNav() {
     if (document.documentElement.clientWidth < 856) {
         document.getElementById("theSideNav").style.width = "0";
     }
 }
-
 $(document).ready(function() {
     $(window).resize(function () {
         if ($(window).width() > 855)

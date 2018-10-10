@@ -29,8 +29,8 @@
                 &#9776;
             </a>
             <a id="user">Welcome, &nbsp<?php echo $row["first_name"]; ?> !</a>
-            <a id="logout" href="/logout_action.php" onclick="return confirm('Are you sure?')">Logout</a>
-            <a id="profile" href="/customer_profile.php">My Profile</a>
+            <a id="logout" href="/BMS/logout_action.php" onclick="return confirm('Are you sure?')">Logout</a>
+            <a id="profile" href="/BMS/customer_profile.php">My Profile</a>
         </div>
     </div>
 

@@ -50,7 +50,7 @@
 
         <div class="flex-container">
             <div class="container">
-                <a href="/beneficiary.php" class="button">Go Back</a>
+                <a href="/BMS/beneficiary.php" class="button">Go Back</a>
             </div>
 
             <div class="container">

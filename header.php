@@ -11,7 +11,7 @@
             <img src="images/logo.png" onclick="eEgg_func()" width="100" height="100">
         </div>
         <div class="flex-item-header">
-            <h1>DOLPHIN BANK</h1>
+            <h1>SRM Transactions</h1>
         </div>
     </div>
 
